@@ -13,7 +13,14 @@ app.use(express.static("public"));
 
 //---------------------------------------------------------
 // connect mongo db
-mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify: false });
+mongoose.connect("mongodb+srv://admineid:19791222@cluster0-hyt7n.mongodb.net/todolistDB?retryWrites=true&w=majority",{
+  useCreateIndex: true,
+  useNewUrlParser: true,
+  useFindAndModify: false,
+  useUnifiedTopology: true,
+  promiseLibrary: global.Promise
+});
+
 //creating Schema
 const itemsSchema = {
   name: String

@@ -1,7 +1,6 @@
 {
-  "name": "todolist-v1",
+  "name": "todolistv2",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +12,17 @@
     "ejs": "^2.7.2",
     "express": "^4.17.1",
     "lodash": "^4.17.15",
+    "mongo": "^0.1.0",
     "mongoose": "^5.7.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salemeid/todolist-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/salemeid/todolist-v2/issues"
+  },
+  "homepage": "https://github.com/salemeid/todolist-v2#readme",
+  "description": ""
 }
