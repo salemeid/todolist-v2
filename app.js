@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 //---------------------------------------------------------
 // connect mongo db
-mongoose.connect("mongodb+srv://admineid:19791222@cluster0-hyt7n.mongodb.net/todolistDB?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://admineid:XXXXXXX@cluster0-hyt7n.mongodb.net/todolistDB?retryWrites=true&w=majority",{
   useCreateIndex: true,
   useNewUrlParser: true,
   useFindAndModify: false,
